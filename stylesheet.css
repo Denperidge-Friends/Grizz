@@ -92,3 +92,8 @@ td img {
     width: 40%;
     height: 350px;
 }
+
+section>img {
+    width: 80%;
+    margin: auto;
+}
