@@ -6,12 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moësha - The Prism</title>
+    <link rel="stylesheet" href="hamburger.css">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
     <header>
         <img src="assets/Logo.png" alt="Moësha The Prism logo" />
+        <!-- Hamburger by https://codepen.io/erikterwan/pen/EVzeRP  -->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="#9-photo-challenge">
+                        <li>9 Photo Challenge</li>
+                    </a>
+                    <a href="#textures">
+                        <li>Textures</li>
+                    </a>
+                    <a href="#collage">
+                        <li>Collage</li>
+                    </a>
+                    <a href="#typographic-poster">
+                        <li>Typographic Poster</li>
+                    </a>
+                    <a href="#short-movie">
+                        <li>Short-Movie</li>
+                    </a>
+                    <a href="#animation">
+                        <li>Animation</li>
+                    </a>
+                    <a href="#magazine">
+                        <li>Magazine</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <section>
@@ -19,7 +52,7 @@
         </section>
         <section id="9-photos">
             <h1>9 photo challenge</h1>
-            <div class="photos 9-photos">
+            <div class="photos 9-photos" id="9-photo-challenge">
                 <table>
                     <tbody>
                         <tr>
@@ -71,15 +104,15 @@
             <h1>Typographic poster</h1>
             <img src="assets/02_Typografische_poster.jpg" />
         </section>
-        <section>
+        <section id="short-movie">
             <h1>Short movie</h1>
             <iframe width="80%" height="300px" src="https://www.youtube.com/embed/qNLgmdMto1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-        <section>
+        <section id="animation">
             <h1>Animation</h1>
             <iframe width="80%" height="300px" src="https://www.youtube.com/embed/-gVV4LlIvCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-        <section>
+        <section id="magazine">
             <h1>Magazine</h1>
             <img src="assets/Magazine_Cover_03.jpg" alt="Magazine cover" />
         </section>
