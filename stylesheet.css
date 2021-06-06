@@ -21,6 +21,13 @@ header {
     height: 150px;
 }
 
+header img {
+    height: 60%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 main {
     width: 80%;
     background-color: white;
