@@ -1,0 +1,80 @@
+@font-face {
+    font-family: kiona;
+    src: url(assets/Kiona-Regular.ttf);
+}
+
+html,
+body {
+    background-color: #a2bed0;
+    min-height: 100%;
+    font-family: kiona, sans-serif;
+    text-align: center;
+}
+
+header {
+    color: white;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 150px;
+}
+
+main {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.border-red {
+    border-color: #e92024;
+}
+
+.border-orange {
+    border-color: #f58718;
+}
+
+.border-yellow {
+    border-color: #fcef1f;
+}
+
+.border-green {
+    border-color: #71b82e;
+}
+
+.border-cyan {
+    border-color: #69c8de;
+}
+
+.border-blue {
+    border-color: #2650a0;
+}
+
+.border-purple {
+    border-color: #574a99;
+}
+
+.border-violet {
+    border-color: #97509c;
+}
+
+.border-pink {
+    border-color: #df4091;
+}
+
+.photo:nth-of-type(9) {
+    border-color: #DB4E45;
+}
