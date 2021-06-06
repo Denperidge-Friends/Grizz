@@ -34,9 +34,16 @@ table {
 
 td {
     border: 1px solid;
+}
+
+td img {
+    object-fit: cover;
+}
+
+td,
+td img {
     width: 150px;
     height: 150px;
-    object-fit: contain;
 }
 
 .border-red {
@@ -73,6 +80,10 @@ td {
 
 .border-pink {
     border-color: #df4091;
+}
+
+.border-none {
+    border: none;
 }
 
 .photo:nth-of-type(9) {
